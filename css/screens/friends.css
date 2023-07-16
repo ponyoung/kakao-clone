@@ -5,6 +5,7 @@
   padding: 15px 0px;
   font-size: 17px;
   margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 #friends-display-link i {
@@ -13,10 +14,6 @@
 
 #friends-display-link-text {
   cursor: pointer;
-}
-
-.friends-screen {
-  padding: 0px 25px;
 }
 
 .friends-screen__channel {

@@ -2,6 +2,12 @@
   justify-content: space-between;
 }
 
+.user-component:hover {
+  /* background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px; */
+  cursor: pointer;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -26,6 +32,7 @@
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .user-component__avatar--xl {
@@ -44,5 +51,13 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
