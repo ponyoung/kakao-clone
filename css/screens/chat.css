@@ -131,6 +131,7 @@
 .reply input {
   padding: 6px 10px;
   height: 30px;
+  margin-bottom: 3px;
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
