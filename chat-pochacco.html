@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://instabook.cafe24.com/web/upload/kakaotalklink.png"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">pochacco</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, December 31, 2023</div>
+
+      <div class="message-row">
+        <img
+          src="data:image/png;base64,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"
+        />
+        <div class="message-row__content">
+          <span class="message__author">pochacco</span>
+          <div class="message__info">
+            <span class="message__bubble">
+              This letter first started in England and gave luck to recipients
+              around the world once a year. Now this letter that has reached you
+              has to leave you within 4 days. You must send 7 copies, including
+              this letter, to the person in need of good luck. You can also make
+              a copy. You may call it superstition, but it is true.
+            </span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">wow....</span>
+            <span class="message__time">21:30</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/f970a6336e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
