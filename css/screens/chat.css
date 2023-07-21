@@ -192,3 +192,15 @@
 .reply:focus-within {
   transform: translateY(80px);
 }
+
+.read {
+  display: flex;
+  font-size: 9px;
+  font-weight: 300;
+  justify-content: end;
+}
+
+.message__information {
+  display: flex;
+  flex-direction: column-reverse;
+}
